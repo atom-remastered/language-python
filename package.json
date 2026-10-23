@@ -23,6 +23,6 @@
     "tree-sitter-python": "^0.17.0"
   },
   "devDependencies": {
-    "coffeelint": "^1.10.1"
+    "coffeelint": "^2.1.0"
   }
 }
