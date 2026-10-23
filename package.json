@@ -12,11 +12,11 @@
   "homepage": "https://atom.github.io/language-python",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/language-python.git"
+    "url": "https://github.com/atom-remastered/language-python.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atom/language-python/issues"
+    "url": "https://github.com/atom-remastered/language-python/issues"
   },
   "dependencies": {
     "atom-grammar-test": "^0.6.4",
