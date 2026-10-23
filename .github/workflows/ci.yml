@@ -18,16 +18,16 @@ jobs:
           - stable
           - nightly
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
       - name: Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: |
             'node_modules'
             'C:/Program Files (x86)/MSBuild/Microsoft.Cpp/v4.0/v140'
           key: ${{ runner.os }}-${{ matrix.atom_channel }}-${{ hashFiles('package.json') }}
 
-      - uses: UziTech/action-setup-atom@v1
+      - uses: UziTech/action-setup-atom@v3
         with:
           channel: ${{ matrix.atom_channel }}
 
